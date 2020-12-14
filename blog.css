@@ -4,11 +4,9 @@
 }
 
 .border-2{
-    margin-right: 1%;
-    margin-left: 1%;
     margin-top: 10px;
     border:  #ce7032d5 3px solid;
-    width: 73%;
+    width: 100%;
 }
 
 .secciones{
@@ -52,4 +50,15 @@ aside textarea{
 
 #nosotros h2{
     text-align: center;
+}
+
+.contenedor-2{
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-top: 10px;
+    width: 73%;
+}
+
+#ingredientes-antelia img{
+    width: 37%;
 }
