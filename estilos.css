@@ -193,6 +193,11 @@ h2, h3 {
     border-right: #ce7032d5 12px solid;
 }
 
+#video2{
+    margin-top: 30px;
+    margin-left: 28%;
+}
+
 slider{
     display: block;
     width: 100%;
@@ -261,7 +266,7 @@ slide p{
 }
 
 footer{
-    margin-top: 692px;
+    margin-top: 700px;
     position: absolute;
     width: 100%;
     color: #fff;
@@ -536,4 +541,145 @@ footer .redes a{
 .zoom{
     transform: scale(1.2);
     transition: 0.4s;
+}
+
+.menu .menu-icon{
+    visibility: hidden;
+}
+
+@media (max-width: 800px) {
+    header .contenedor .menu {
+        align-items: center;
+
+    }
+
+    .menu img{
+        width: 128px;
+    }
+
+    .menu .menu-icon{
+        width: 40px;
+        visibility: visible;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+
+    nav ul li{
+        background-color: #aaa;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: #fff;
+    }
+
+    nav{
+        background: #aaa;
+        width: 100%;
+        position: absolute;
+        margin-top: 310px;
+        display: none;
+        left: 0;
+    }
+
+    .Titular{
+        margin-left: 10%;
+    }
+
+    iframe{
+        width: 378px;
+        height: 280px;
+    }
+
+    #QuienesSomosInicio .contenedor{
+        flex-direction: column;
+    }
+
+    #QuienesSomosInicio .texto{
+        margin-top: 0px;
+    }
+
+    #reseñahistorica{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    #reseñahistorica p{
+        font-size: 13pt;
+    }
+    
+    #reseñahistorica img{
+        width: 100%;
+    }
+
+    .contenedor-ingrediente{
+        flex-direction: column;
+    }
+
+    .contenedor-ingrediente .ingrediente{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    #escribenos form{
+        width: 100%;
+    }
+
+    #escribenos .enviar{
+        width: 100%;
+    }
+
+    #escribenos img{
+        display: none;
+    }
+
+    .comentario img{
+        width: 15%;
+        height: 50%;
+    }
+
+    #miviva img{
+        display: none;
+    }
+
+    #nosotros .contenedor{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    
+    .tarjetayo{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #filosofia p, #soydiferente p, #responso p, #proxpaso p{
+        font-size: 13pt;
+    }
+
+    #miviva, #filosofia, #soydiferente, #responso, #proxpaso, #nosotros{
+        margin: 0px 10px;
+    }
+
+    .foto{
+        width: 50%;
+    }
+
+    .contenedor-ingredientes{
+        flex-direction: column;
+    }
+
+    .contenedor-ingredientes .ingrediente{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .contenedor-2{
+        width: 100%;
+    }
 }

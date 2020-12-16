@@ -62,3 +62,13 @@ aside textarea{
 #ingredientes-antelia img{
     width: 37%;
 }
+
+@media (max-width: 800px){
+    .contenedor-2{
+        width: 96%;
+    }
+
+    #graphcomment{
+        height: 100%;
+    }
+}

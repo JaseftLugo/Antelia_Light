@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Pagina web de una empresa de jabones">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="icon" href="imagenes/favicon.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
@@ -17,6 +18,7 @@
         <div class="contenedor">
             <div class="menu">
                 <img src="imagenes/logo_transparent.png" alt="No se que paso">
+                <img class="menu-icon" src="imagenes/iconomenu.png" alt="falta un icono">
                 <nav>
                     <br><br><ul>
                         <li><a href="index.html">Inicio</a></li>
@@ -149,6 +151,8 @@
             así, otro tipo de planes ambientales que podamos desarrollar.</p>
         </div>
     </section>
+
+    <iframe id="video2" width="560" height="315" src="https://www.youtube.com/embed/SK5w7BhL-48" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
 </div>
 
 <h2>Galería</h2>
@@ -264,8 +268,12 @@
             $('.img-hover').removeClass('zoom')
         })
 
+        $(document).ready(function(){
+            $('.menu-icon').click(function(){
+                $('nav').slideToggle();
+            })
+        })
     })
-
 
   </script>
 </body>
